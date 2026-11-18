@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raman Records - Software">
+    <title>Raman Records | Software</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header-logo">
+            <img src="images/home/logo.png" alt="Raman Records Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="composition.html">Composition</a></li>
+                <li><a href="software.html" class="active">Software</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <h1>Software</h1>
+
+            <p class="audio-intro">Software is nothing but another medium for me to channel my creativity.<br>Game
+                Design and Audio Processing are my two main focuses.</br>
+            </p>
+            <div class="audio-grid">
+                <!-- MeatOnBone -->
+                <a href="#meatonbone-popup" class="audio-item" data-popup="meatonbone-popup">
+                    <div class="audio-image">
+                        <img src="images/software/meatOnBone.png" alt="MeatOnBone">
+                    </div>
+                    <div class="audio-info">
+                        <p class="song-name">MeatOnBone</p>
+                        <p class="role-name">Developer, Designer</p>
+                    </div>
+                </a>
+
+                <!-- VR Bridge Builder -->
+                <a href="#bridgebuilder-popup" class="audio-item" data-popup="bridgebuilder-popup">
+                    <div class="audio-image">
+                        <img src="images/software/badBridge.png" alt="VR Bridge Builder">
+                    </div>
+                    <div class="audio-info">
+                        <p class="song-name">VR Bridge Builder</p>
+                        <p class="role-name">Lead C# Programmer [Unity]</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- MeatOnBone Popup -->
+        <div id="meatonbone-popup" class="popup-overlay" aria-hidden="true">
+            <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="meatonbone-title">
+                <button type="button" class="popup-close" aria-label="Close popup">&times;</button>
+                <h2 id="meatonbone-title" class="popup-title">MeatOnBone Plugin</h2>
+                <div class="popup-body">
+                    <div class="popup-image">
+                        <img src="images/software/meatOnBone.png" alt="MeatOnBone Plugin">
+                    </div>
+                    <p>Have you ever wondered what it means to "add meat to your mix"? Well I was wondering that to and
+                        came to the conlcusion that a careful balance of compression and distortion was the answer.
+                        MeatOnBone allows you to apply this treatment to one of 4 frequency bands [aptly labelled:
+                        'Beef', 'Pork', 'Chicken', and 'Fish'] and mix in in parallel. Apologies if you are vegan, I'll
+                        make a vegetable based
+                        plugin next! ._.</p>
+                </div>
+                <div class="popup-footer">
+                    <a href="pluginInstallers/MeatOnBoneMacInstaller.pkg" download="MeatOnBoneMacInstaller.pkg"
+                        class="project-button popup-download-btn">DOWNLOAD</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- VR Bridge Builder Popup -->
+        <div id="bridgebuilder-popup" class="popup-overlay" aria-hidden="true">
+            <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="bridgebuilder-title">
+                <button type="button" class="popup-close" aria-label="Close popup">&times;</button>
+                <h2 id="bridgebuilder-title" class="popup-title">Educational Bridge Builder [VR APP]</h2>
+                <div class="popup-body">
+                    <div class="popup-image">
+                        <img src="images/software/badBridge.png" alt="Educational Bridge Builder [VR APP]">
+                    </div>
+                    <p>CamBRIDGE Builder! is a splendid VR bridge-building simulation tool that combines all the fun and
+                        insight
+                        from classical spaghetti bridge building experiments with scientific accuracy computations to
+                        create an
+                        unrivaled learning experience for everyone, from middle schoolers to civil engineers and
+                        seniors. It aims
+                        to (1) spark interest in bridge design by making the building and simulating experience fun; (2)
+                        provide an
+                        educational platform for design analysis, thus reinforcing intuition about existing designs. The
+                        app
+                        combines the best of experiences familiar to mechanical and civil engineering students: the
+                        accuracy of
+                        pencil and paper calculations, the fun of building actual bridges out of spaghetti and the
+                        insight gained
+                        from 3D design simulators.</p>
+                </div>
+                <div class="popup-footer">
+                    <a href="https://drive.google.com/drive/folders/19InQe9o6Jj9ALs0Ox_HmH0tHB7AuCJL8?usp=sharing" target="_blank" class="project-button popup-download-btn">DOWNLOAD</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="#"><img src="images/instagramIcon.png" alt="Instagram"></a>
+            <a href="mailto:your@email.com"><img src="images/mailIcon.jpeg" alt="Email"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
